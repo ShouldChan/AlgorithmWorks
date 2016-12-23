@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/12/13 20:15:50。
+     1>项目“d:\用户目录\我的文档\visual studio 2013\Projects\AlgorithmWorks\AlgorithmWorks\AlgorithmWorks.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ShowAuthTime.cpp test10.cpp
+         ShowAuthTime.cpp
+     1>ShowAuthTime.cpp(11): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>ShowAuthTime.cpp(12): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h(174) : 参见“asctime”的声明
+         test10.cpp
+     1>test10.cpp(20): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>test10.cpp(21): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h(174) : 参见“asctime”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\用户目录\我的文档\Visual Studio 2013\Projects\AlgorithmWorks\Release\AlgorithmWorks.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\用户目录\我的文档\Visual Studio 2013\Projects\AlgorithmWorks\Release\AlgorithmWorks.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\用户目录\我的文档\Visual Studio 2013\Projects\AlgorithmWorks\Release\AlgorithmWorks.lib" /MACHINE:X86 /SAFESEH Release\ShowAuthTime.obj
+         Release\test10.obj
+         正在生成代码
+         已完成代码的生成
+         AlgorithmWorks.vcxproj -> d:\用户目录\我的文档\Visual Studio 2013\Projects\AlgorithmWorks\Release\AlgorithmWorks.exe
+     1>已完成生成项目“d:\用户目录\我的文档\visual studio 2013\Projects\AlgorithmWorks\AlgorithmWorks\AlgorithmWorks.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.88
